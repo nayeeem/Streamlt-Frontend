@@ -8,12 +8,12 @@ import time # type: ignore
 st.title('My First Streamlit App')
 
 # Define the pages
-main_page = st.Page("main_page.py", title="Main Page", icon="❄️")
-page_2 = st.Page("page_2.py", title="Page 2", icon="❄️")
-page_3 = st.Page("page_3.py", title="Page 3", icon="❄️")
-page_4 = st.Page("page_4.py", title="Page 4", icon="❄️")
-page_5 = st.Page("page_5.py", title="Page 5", icon="❄️")
-page_6 = st.Page("page_6.py", title="Page 6", icon="❄️")
+main_page = st.Page("main_page.py", title="Page 1: Form Submit Example", icon="❄️")
+page_2 = st.Page("page_2.py", title="Page 2: Data Frame Examples", icon="❄️")
+page_3 = st.Page("page_3.py", title="Page 3: Line Chart and Map Examples", icon="❄️")
+page_4 = st.Page("page_4.py", title="Page 4: Text Input & Check Box Example", icon="❄️")
+page_5 = st.Page("page_5.py", title="Page 5: Long Computation Example", icon="❄️")
+page_6 = st.Page("page_6.py", title="Page 6: Sidebar Slider Example", icon="❄️")
 
 # Set up navigation
 pg = st.navigation([main_page, page_2, page_3, page_4, page_5, page_6])
